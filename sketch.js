@@ -5,8 +5,8 @@ var hSlider, sSlider, bSlider;
 
 function setup() {
 	createCanvas(1500, 670);
-	Cx= windowWidth/2;
-	Cy= windowHeight/2;
+	Cx= 1500/2;
+	Cy= 670/2;
 	text(20);
 
 	angleMode(DEGREES);
