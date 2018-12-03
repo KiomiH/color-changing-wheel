@@ -14,15 +14,15 @@ function setup() {
 	noStroke();
 	colorMode(HSB,360,100,100);
 	hSlider = createSlider(0, 360, 200);
-  hSlider.position(450, 100);
+  hSlider.position(350, 100);
   hSlider.size(100,10);
   
   sSlider = createSlider(0, 100, 100);
-  sSlider.position(450, 130);
+  sSlider.position(350, 130);
   sSlider.size(100,10);
   
   bSlider = createSlider(0, 100, 70);
-  bSlider.position(450, 160);
+  bSlider.position(350, 160);
   bSlider.size(100,10);
 	
 }
@@ -45,9 +45,9 @@ function draw() {
 
 	textSize(15);
 	fill(255);
-	text(["hue = "+hNumber],560,105);
-  text(["sat = "+sNumber],560,135);
-  text(["bright = "+bNumber],560,165);
+	text(["hue = "+hNumber],460,105);
+  text(["sat = "+sNumber],460,135);
+  text(["bright = "+bNumber],460,165);
 
 	strokeWeight(3);
   stroke(90,10,30)
