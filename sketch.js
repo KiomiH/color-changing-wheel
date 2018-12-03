@@ -4,8 +4,8 @@ var Radius =Diameter/2;
 var hSlider, sSlider, bSlider;
 
 function setup() {
-	createCanvas(1500, 670);
-	Cx= 1500/2;
+	createCanvas(1200, 670);
+	Cx= 1200/2;
 	Cy= 670/2;
 	text(20);
 
